@@ -13,6 +13,7 @@
 		EEA903341E4C4F9C00706EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA903321E4C4F9C00706EC1 /* Main.storyboard */; };
 		EEA903361E4C4F9C00706EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA903351E4C4F9C00706EC1 /* Assets.xcassets */; };
 		EEA903391E4C4F9C00706EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA903371E4C4F9C00706EC1 /* LaunchScreen.storyboard */; };
+		EEA903421E4C533F00706EC1 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA903411E4C533F00706EC1 /* UIView+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EEA903351E4C4F9C00706EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA903381E4C4F9C00706EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA9033A1E4C4F9C00706EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA903401E4C533F00706EC1 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		EEA903411E4C533F00706EC1 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				EEA9032D1E4C4F9C00706EC1 /* AppDelegate.m */,
 				EEA9032F1E4C4F9C00706EC1 /* ViewController.h */,
 				EEA903301E4C4F9C00706EC1 /* ViewController.m */,
+				EEA903401E4C533F00706EC1 /* UIView+Ext.h */,
+				EEA903411E4C533F00706EC1 /* UIView+Ext.m */,
 				EEA903321E4C4F9C00706EC1 /* Main.storyboard */,
 				EEA903351E4C4F9C00706EC1 /* Assets.xcassets */,
 				EEA903371E4C4F9C00706EC1 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA903421E4C533F00706EC1 /* UIView+Ext.m in Sources */,
 				EEA903311E4C4F9C00706EC1 /* ViewController.m in Sources */,
 				EEA9032E1E4C4F9C00706EC1 /* AppDelegate.m in Sources */,
 				EEA9032B1E4C4F9C00706EC1 /* main.m in Sources */,
@@ -271,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableLinkageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TableLinkageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableLinkageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TableLinkageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
