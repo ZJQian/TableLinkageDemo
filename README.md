@@ -1,7 +1,7 @@
 # TableLinkageDemo
 列表的联动的demo，左侧是tableview，右侧是collectionView
 <p>这是效果图：</p>
-![image](https://github.com/ZJQian/TableLinkageDemo/blob/master/tableLinkage.gif)
+![效果图](https://github.com/ZJQian/TableLinkageDemo/blob/master/tableLinkage.gif)
 
 <p>其实原理很简单，就是左侧放一个tableview，右侧放一个collectionView（也可以是tableview），只要搞清楚点击表，或者滑动collection的时候，另一个做出相应的效果来就好了</p>
 
